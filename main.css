@@ -1,0 +1,17 @@
+/* ADD YOUR STYLES HERE */
+
+.instruction-text {
+	color:blue;
+}
+
+table td {
+	padding: 30px;
+}
+table tr {
+	padding: 30px;
+}
+
+.num {
+	font-size:45px;
+
+}
