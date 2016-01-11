@@ -1,20 +1,28 @@
 /* ADD YOUR STYLES HERE */
 
 .instruction-text {
-	color:blue;
+	color:#0058b3;
 }
 
-table td {
+table {
+	border: none;
+}
+
+table td, table th {
 	padding: 30px;
 }
 
 table tr {
 	padding: 30px;
-	border: 1px solid black;
+	border-bottom: 3px solid #808080 ;
 }
 
 .num {
-	font-size:45px;
+	font-size: 45px;
+}
 
+div.num + div {
+	font-size: 15px;
+	color: #737373;
 }
 
