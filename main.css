@@ -1,39 +1,54 @@
 /* ADD YOUR STYLES HERE */
 
+/* This turns the general instruction text blue */
+
 .instruction-text {
 	color:#0058b3;
 }
 
+ /*Table Styling */
 table {
-	border: none;
+	border-collapse: collapse;
 }
 
 .first-table td {
+	border-bottom: 1px solid #808080;
 	padding: 30px;
 	text-align: center;
 }
-.t-header  {
+.first-table tr {
+	text-align: center;
+}
+
+.second-table tr {
+	padding: 30px;
+	border-bottom: 1px solid #808080 ;
+}
+
+.second-table td {
 	padding:30px;
 	text-align: center;
-	border-bottom: 1px solid #808080 ;
 }
 
-.first-table tr {
-	padding: 30px;
-	border-bottom: 1px solid #808080 ;
+.t-header th{
+	text-align: center;
+	height:35px;
+	border-bottom: 1px solid #808080;
 }
 
-table tr:last-child {
+.second-table tr:last-child {
 	border-bottom: hidden;
 }
-table tr:first-child {
+.second-table tr:first-child {
 	border-bottom: 1px solid #808080;
 }
 .num {
 	font-size: 45px;
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 }
+
+/*Twitter Followers*/
 
 div.num + div {
 	font-size: 12px;
@@ -49,6 +64,7 @@ table.bar-graph {
 	color: white;
 }
 
+/*Bar Graph */
 
 .bar-graph th {
 	width: 15%;
@@ -59,16 +75,35 @@ table.bar-graph {
 	padding-bottom: 10px;
 }
 
-.lightbox {
-  background: ##595959;
-}
+/*Lightbox */
+
+/*.lightbox {
+  background: #404040;
+  position: fixed;
+  top: -15px;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}*/
 
 .lightbox-content {
+
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top:30%;
+	text-align: center;
 	border-radius: 10px;
 	background: #e6e6e6;
+	margin-top: 50px;
 }
 
+/*Media Box CSS*/
 
+.media-box img {
+	float: left;
+	padding-right:25px;
+}
 
 
 
